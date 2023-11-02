@@ -3,7 +3,6 @@ import "./App.css";
 import AppleLogo from "./applePixels.png";
 import Monitor from "./oldMonitor.png";
 import useInterval from "./useInterval";
-import { time } from "console";
 import Leadboard from "./Leadboard";
 
 const canvasX = 1000;
@@ -124,9 +123,10 @@ function App() {
 
     if (score > 0 && score % 50 === 0) {
       setDelay(timeDelay - 20);
-      console.log(timeDelay);
     }
   }
+
+  
 
   useEffect(() => {
     window.addEventListener("keydown", (e) => {

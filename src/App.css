@@ -111,14 +111,75 @@ h2 {
 	flex-direction: column;
 	gap: 0.5rem;
 }
+
+
+
 .player{
 	display: flex;
 	gap: 0.5rem;
 	font-size: 14px;
 	width: 100%;
-	/* padding: 0 0.5rem; */
+	padding: 0 0.1rem;
 	align-items: center;
 	justify-content: space-evenly;
-	border: 1px solid;
+	border: 1px solid #222;
+	box-shadow: #222 1px 2px 3px 2px;
 }
 
+.addPlayer{
+	position: absolute;
+	right: 1rem;
+	top: 0;
+	scale: 1.5;
+	text-shadow: 1px 2px 1px #222;
+}
+.addPlayer:hover{
+	color: goldenrod;
+	cursor: pointer;
+	text-shadow: 0px -2px 1px #222;
+}
+
+input{
+	font:inherit;
+	font-size: 14px;
+	text-align: center;
+	width: 10rem;
+	color: #fff;
+	outline: none;
+	border: none;
+	border-bottom:1px solid ;
+	background-color: transparent;
+	height: 1.5rem;
+	text-shadow: 1px 2px 1px #222;
+	margin-bottom:1rem ;
+}
+.submitAdd{
+	color: white;
+	background: goldenrod;
+	border: 2px solid rgb(127, 120, 120);
+	padding: 7px;
+	font-size: 0.6em;
+	color: white;
+	box-shadow: 4px 4px 0px 0px rgb(127, 120, 120);
+	font-family: 'Press Start 2P', cursive;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.submitAdd:hover{
+	box-shadow: 2px 2px 0px 0px #222;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.playerIndex{
+	/* position: absolute; */
+	margin-right:auto ;
+}
+.score{
+	margin-left:auto ;
+	color: rgb(213, 176, 81);
+}
