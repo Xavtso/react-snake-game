@@ -209,13 +209,13 @@ input{
 	height: 600px;
 	position: fixed;
 	top: 75%;
-	transform: translate(-80%, -80%);
+	transform: translate(-85%, -80%);
 	filter: drop-shadow( 1px 4px 1px rgb(83, 83, 83));
 	-webkit-filter: drop-shadow( 1px 4px 1px rgb(83, 83, 83));
-	-webkit-transform: translate(-80%, -80%);
-	-moz-transform: translate(-80%, -80%);
-	-ms-transform: translate(-80%, -80%);
-	-o-transform: translate(-80%, -80%);
+	-webkit-transform: translate(-85%, -80%);
+	-moz-transform: translate(-85%, -80%);
+	-ms-transform: translate(-85%, -80%);
+	-o-transform: translate(-85%, -80%);
 }
 
 .gameOver {
