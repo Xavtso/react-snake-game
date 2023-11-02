@@ -228,7 +228,7 @@ input{
 	height: 345px;
 	text-align: center;
 	top: 55%;
-	left: 48.5%;
+	left: 45%;
 	transform: translate(-80%, -80%);
 	color: white;
 	font-size: 35px;
@@ -241,9 +241,13 @@ input{
 .playButton {
 	position: fixed;
 	top: 75%;
-	left: 32%;
+	left: 31%;
 	transform: translate(-50%, -50%);
-	
+	padding: 8px;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
 }
 
 .scoreBox {
